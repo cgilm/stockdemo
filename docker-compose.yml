@@ -98,3 +98,4 @@ services:
       PORT: 9021
     extra_hosts:
       - "stocks:127.0.0.1"
+
