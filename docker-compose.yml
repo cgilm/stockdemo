@@ -54,7 +54,7 @@ services:
     extra_hosts:
       - "stocks:127.0.0.1"
       
- schema_registry:
+  schema_registry:
     image: confluentinc/cp-schema-registry
     network_mode: host
     environment:
